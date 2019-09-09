@@ -1,7 +1,8 @@
-package com.haerul.popularnews.models;
+package com.haerul.Caffeine.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import com.haerul.Caffeine.Article;
 
 import java.util.List;
 
@@ -17,7 +18,7 @@ public class News {
 
     @SerializedName("articles")
     @Expose
-    private List<Article> article;
+    private List<com.haerul.Caffeine.Article> article;
 
     public String getStatus() {
         return status;

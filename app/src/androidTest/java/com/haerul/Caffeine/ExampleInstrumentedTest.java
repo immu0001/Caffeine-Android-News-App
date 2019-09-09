@@ -1,4 +1,4 @@
-package com.haerul.popularnews;
+package com.haerul.Caffeine;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.haerul.popularnews", appContext.getPackageName());
+        assertEquals("com.haerul.Caffeine", appContext.getPackageName());
     }
 }

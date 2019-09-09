@@ -1,4 +1,4 @@
-package com.haerul.popularnews;
+package com.haerul.Caffeine;
 
 import org.junit.Test;
 

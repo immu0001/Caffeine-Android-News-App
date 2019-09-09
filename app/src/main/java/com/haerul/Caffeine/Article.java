@@ -1,7 +1,8 @@
-package com.haerul.popularnews.models;
+package com.haerul.Caffeine;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import com.haerul.Caffeine.models.Source;
 
 public class Article {
 

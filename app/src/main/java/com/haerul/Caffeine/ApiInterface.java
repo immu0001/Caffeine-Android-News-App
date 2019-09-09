@@ -1,6 +1,6 @@
-package com.haerul.popularnews.api;
+package com.haerul.Caffeine;
 
-import com.haerul.popularnews.models.News;
+import com.haerul.Caffeine.models.News;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

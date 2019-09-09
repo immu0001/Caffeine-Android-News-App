@@ -1,4 +1,4 @@
-package com.haerul.popularnews;
+package com.haerul.Caffeine;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -20,18 +20,18 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.request.target.Target;
-import com.haerul.popularnews.models.Article;
+import com.haerul.Caffeine.Article;
 import java.util.List;
 
 
-public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder>{
+public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
 
-    private List<Article> articles;
+    private List<com.haerul.Caffeine.Article> articles;
     private Context context;
     private OnItemClickListener onItemClickListener;
 
 
-    public Adapter(List<Article> articles, Context context) {
+    public Adapter(List<com.haerul.Caffeine.Article> articles, Context context) {
         this.articles = articles;
         this.context = context;
     }
@@ -46,7 +46,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder>{
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holders, int position) {
         final MyViewHolder holder = holders;
-        Article model = articles.get(position);
+        com.haerul.Caffeine.Article model;
+        model = articles.get(position);
 
         RequestOptions requestOptions = new RequestOptions();
         requestOptions.placeholder(Utils.getRandomDrawbleColor());
