@@ -4,6 +4,7 @@ import android.app.SearchManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
+import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.util.Pair;
 import android.support.v4.view.ViewCompat;
@@ -94,7 +95,8 @@ public class MainActivity extends AppCompatActivity implements  SwipeRefreshLayo
 
         call.enqueue(new Callback<News>() {
             @Override
-            public void onResponse(Call<News> call, Response<News> response) {
+            public void onResponse(@NonNull Call<News> call, @NonNull Response<News> response) {
+                assert response.body() != null;
                 if (response.isSuccessful() && response.body().getArticle() != null){
 
                     if (!articles.isEmpty()){
@@ -242,7 +244,7 @@ public class MainActivity extends AppCompatActivity implements  SwipeRefreshLayo
 
     }
 
-    private void showErrorMessage(int imageView, String title, String message){
+    public void showErrorMessage(int imageView, String title, String message){
 
         if (errorLayout.getVisibility() == View.GONE) {
             errorLayout.setVisibility(View.VISIBLE);
@@ -258,6 +260,11 @@ public class MainActivity extends AppCompatActivity implements  SwipeRefreshLayo
                 onLoadingSwipeRefresh("");
             }
         });
+
+    }
+
+    public void fromStarter(String category){
+        LoadJson(category);
 
     }
 

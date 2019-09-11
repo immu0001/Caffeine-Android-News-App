@@ -7,4 +7,10 @@
     <color name="colorBackground">#f9f9fa</color>
     <color name="colorTextSubtitle">#4e4e4e</color>
     <color name="colorTextTitle">#262626</color>
+
+    <color name="Red">#B00020</color>
+    <color name="mat1">#e41749</color>
+    <color name="mat2">#f5587b</color>
+    <color name="mat3">#ff8a5c</color>
+    <color name="mat4">#fff591</color>
 </resources>

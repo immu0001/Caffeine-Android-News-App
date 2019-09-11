@@ -57,7 +57,8 @@
                     android:layout_alignBottom="@id/img"
                     android:scaleType="centerCrop"
                     android:layout_width="match_parent"
-                    android:layout_height="80dp" />
+                    android:layout_height="80dp"
+                    tools:ignore="NotSibling" />
 
             </RelativeLayout>
 
@@ -200,7 +201,6 @@
     <FrameLayout
         android:id="@+id/date_behavior"
         app:layout_anchor="@+id/appbar"
-        app:behavior_autoHide="true"
         android:adjustViewBounds="true"
         app:layout_anchorGravity="right|end|bottom"
         android:clickable="false"
@@ -213,7 +213,9 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="410dp"
         android:layout_height="wrap_content"
-        tools:ignore="UnusedAttribute">
+        tools:ignore="MissingPrefix,UnusedAttribute"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp">
         <ImageView
             android:src="@drawable/ic_date"
             android:layout_width="18dp"
@@ -227,7 +229,8 @@
             android:layout_marginRight="10dp"
             android:text="01 January 1990"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded" />
     </FrameLayout>
 
 </android.support.design.widget.CoordinatorLayout>

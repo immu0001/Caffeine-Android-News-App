@@ -6,10 +6,10 @@
             android:padding="5dp">
             <solid android:color="#e7e7e7" />
             <corners
-                android:bottomRightRadius="50dp"
-                android:bottomLeftRadius="50dp"
-                android:topLeftRadius="50dp"
-                android:topRightRadius="50dp"/>
+                android:bottomRightRadius="100dp"
+                android:bottomLeftRadius="100dp"
+                android:topLeftRadius="100dp"
+                android:topRightRadius="100dp"/>
         </shape>
     </item>
     <item android:bottom="2px" android:right="2px">
@@ -18,10 +18,10 @@
             android:padding="5dp">
             <solid android:color="#fff"/> <!-- this one is ths color of the Rounded Button -->
             <corners
-                android:bottomRightRadius="50dp"
-                android:bottomLeftRadius="50dp"
-                android:topLeftRadius="50dp"
-                android:topRightRadius="50dp"/>
+                android:bottomRightRadius="100dp"
+                android:bottomLeftRadius="100dp"
+                android:topLeftRadius="100dp"
+                android:topRightRadius="100dp"/>
         </shape>
     </item>
 </layer-list>
