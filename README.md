@@ -1,4 +1,5 @@
 # PopularNews
+
 News application using the API from https://newsapi.org/
 
 API News Is JSON API for live news and blog articles from the media.
@@ -19,7 +20,7 @@ Retrofit is a REST Client for Java and Android. Its use is very easy.
 
 ![Alt text](https://github.com/immu0001/Caffeine-Android-News-App/blob/master/Screenshot-NewsApp-Copy.png?raw=true "News API")
 
-# Clone this project
+# Clone this project:
 
 Clone with HTTPS
 https://github.com/immu0001/Caffeine-Android-News-App.git
