@@ -17,7 +17,7 @@ Retrofit is a REST Client for Java and Android. Its use is very easy.
 
 # Screenshots:
 
-![Alt text](https://github.com/haerulmuttaqin/PopularNews/blob/master/Screenshot-NewsApp-Copy.png?raw=true "News API")
+![Alt text](https://github.com/immu0001/Caffeine-Android-News-App/blob/master/Screenshot-NewsApp-Copy.png?raw=true "News API")
 
 # Clone this project
 
